@@ -1,0 +1,17 @@
+# Apache
+RewriteEngine On
+
+#RewriteBase 
+
+RewriteEngine on
+
+
+RewriteRule ^(query.*)$ config/functions.php [NC]
+
+RewriteRule ^(dashboard.*)$ control/home.php [NC]
+RewriteRule ^(userlogs.*)$ control/user.php [NC]
+RewriteRule ^(settings.*)$ control/settings.php [NC]
+RewriteRule ^(saveImage.*)$ control/savecamera.php [NC]
+RewriteRule ^(logout.*)$ control/logout.php [NC]
+RewriteRule ^(compare.*)$ checkcompare.php [NC]
+RewriteRule ^(login.*)$ access.php [NC]
