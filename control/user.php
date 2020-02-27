@@ -26,7 +26,7 @@ include('nav.php');
                       <thead>
                         <tr>
                             <th>#</th>
-                            <th>User Label</th>
+                            <th>User Identifier</th>
                             <th>Image</th>
                             <th></th>
                             <th></th>
